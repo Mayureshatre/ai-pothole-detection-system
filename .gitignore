@@ -1,0 +1,18 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Heavy video and media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Virtual environments (if you use one)
+venv/
+.venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
