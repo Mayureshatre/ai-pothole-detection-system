@@ -63,10 +63,9 @@ This application is fully feasible for compact hardware setups like a Raspberry 
 1. Hardware Option: Use a 5-inch/7-inch touch display directly connected via HDMI/DSI.
 
 2. Headless Mobile Stream (VNC): \* Enable the built-in VNC server on your Raspberry Pi via sudo raspi-config (Interface Options -> VNC -> Enable).
+   - Host a local Wi-Fi hotspot from your mobile device and connect the Pi to it.
 
-   Host a local Wi-Fi hotspot from your mobile device and connect the Pi to it.
-
-   Open RealVNC Viewer (or any free alternative client) on your smartphone, input the Pi's local IP address (hostname -I), and interact with the application GUI wirelessly directly from your phone screen.
+   - Open RealVNC Viewer (or any free alternative client) on your smartphone, input the Pi's local IP address (hostname -I), and interact with the application GUI wirelessly directly from your phone screen.
 
 ## 🔍 Code Implementation Highlights
 
